@@ -19,6 +19,7 @@ function Main() {
     </div></Col>
   <Col span={12}>
   <img style={{width:"50vw"}} src={ReactLogo}  alt="React Logo" />
+  <div>created by <span style={{color:"darkOrange"}}>Prince Agarwal</span></div>
   </Col>
 
   </Row>
