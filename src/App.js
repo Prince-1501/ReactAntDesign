@@ -7,9 +7,15 @@ import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/ico
 
 import './App.css';
 import Main from './components/Main'
+import Navbar from './components/Navbar'
 
 function App() {
-  return <Main />
+  return (
+    <div>
+    <Navbar />
+    <Main />
+    </div>
+  );
 }
 
 export default App;
